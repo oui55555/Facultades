@@ -94,8 +94,8 @@
     * Landing page type
     * Modular content:
     * -Sliders
-    * -Event carousel
-    * -Agenda carousel
+    * -Event-posts carousel
+    * -Agenda-posts carousel
     * -2 col display (text/img)
     * -1 col display (title/newsletter)
     * -HTMl free content
@@ -155,18 +155,21 @@
     // meta-key: facultad_color
     // meta-value: string
 
+  /* Logo UANL footer */
+    # header logo
+      // meta-key: facultad_logo
+      // meta-value: string(post ID)
 
-  /* Backgorund image */
-    # Primary
-      // meta-key: page_bg_image_primary
+  /* Logo facultad footer */
+    # header logo
+      // meta-key: facultad_logo
       // meta-value: string(post ID)
-    # Secondary
-      // meta-key: page_bg_image_secondary
-      // meta-value: string(post ID)
+
+
 
 
 //======================================================================
-// TEAM WORK - TIME
+// TEAM WORK 
 //======================================================================
 
   /* Backend senior developer  */
@@ -182,10 +185,6 @@
     # Testing site
     # theme file structure and organization
 
-  /*
-  * 8 weeks proyect
-  * posibly not full time fot both developers
-  *
-  */
+
 
 ?>
